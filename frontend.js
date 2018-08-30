@@ -24,7 +24,7 @@ $(function () {
     }
 
     // open connection
-    var connection = new WebSocket('wss://websocket-intravivpn.apaas.us6.oraclecloud.com/latestlogs');
+    var connection = new WebSocket('wss://WSTest-ravimtest1.uscom-central-1.oraclecloud.com/latestlogs');
 
     connection.onopen = function () {
         // first we want users to enter their names
